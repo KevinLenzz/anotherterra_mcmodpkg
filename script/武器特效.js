@@ -1,0 +1,20 @@
+function useItem(x,y,z,itemId,blockId,side,itemDamage,blockDamage) {
+if(itemId==508){
+Level.addParticle(18,Player.getX()-1,Player.getY(),Player.getZ(),1,1,1,100);
+Level.addParticle(18,Player.getX(),Player.getY(),Player.getZ()-1,1,1,1,100);
+Level.addParticle(18,Player.getX()+1,Player.getY(),Player.getZ(),1,1,1,100);
+Level.addParticle(18,Player.getX(),Player.getY(),Player.getZ()+1,1,1,1,100);
+Level.addParticle(18,Player.getX+1,Player.getY(),Player.getZ()+1,1,1,1,100);
+Level.addParticle(18,Player.getX()-1,Player.getY(),Player.getZ()-1,1,1,1,100);
+Level.addParticle(18,Player.getX()-1,Player.getY(),Player.getZ()+1,1,1,1,100);
+Level.addParticle(18,Player.getX()+1,Player.getY(),Player.getZ()-1,1,1,1,100);
+Level.addParticle(18,Player.getX()-2,Player.getY(),Player.getZ(),1,1,1,100);
+Level.addParticle(18,Player.getX(),Player.getY(),Player.getZ()-2,1,1,1,100);
+Level.addParticle(18,Player.getX()+2,Player.getY(),Player.getZ(),1,1,1,100);
+Level.addParticle(18,Player.getX(),Player.getY(),Player.getZ()+2,1,1,1,100);
+Level.addParticle(18,Player.getX+2,Player.getY(),Player.getZ()+2,1,1,1,100);
+Level.addParticle(18,Player.getX()-2,Player.getY(),Player.getZ()-2,1,1,1,100);
+Level.addParticle(18,Player.getX()-2,Player.getY(),Player.getZ()+2,1,1,1,100);
+Level.addParticle(18,Player.getX()+2,Player.getY(),Player.getZ()-2,1,1,1,100);
+}
+}
